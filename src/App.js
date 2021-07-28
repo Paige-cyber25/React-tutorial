@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Aspiration from './FirstAssignment/Aspiration';
+import Bio from './FirstAssignment/Bio';
+import Complexion from './FirstAssignment/Complexion';
+import FullNamesInitials from './FirstAssignment/FullNamesInitials';
+import GetRandomNumbers from './FirstAssignment/GetRandomNumbers';
+import Hobbies from './FirstAssignment/Hobbies';
+import Name from './FirstAssignment/Name';
+import Picture from './FirstAssignment/Picture';
+import Hello from './Hello';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <h1 className="red">Hello World</h1>
+      <Hello />
+      <Name />
+      <Complexion />
+      <Picture />
+      <Hobbies />
+      <Aspiration />
+      <Bio />
+      <FullNamesInitials />
+      <GetRandomNumbers />
     </div>
   );
 }
